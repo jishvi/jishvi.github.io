@@ -224,70 +224,76 @@ canvas {
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
-             <li class="list-inline-item">
+             <li class="list-inline-item" data-toggle="tooltip" title="C">
               <i class="devicon-c-plain small-logo"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="C++">
               <i class="devicon-cplusplus-plain small-logo"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Java">
               <i class="devicons devicons-java"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="PHP">
               <i class="devicons devicons-php"></i>
             </li>
-             <li class="list-inline-item">
+             <li class="list-inline-item" data-toggle="tooltip" title="NodeJs">
               <i class="devicons devicons-nodejs"></i>
             </li>
-             <li class="list-inline-item">
+             <li class="list-inline-item" data-toggle="tooltip" title="HTML%">
               <i class="devicons devicons-html5"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="CSS3">
               <i class="devicons devicons-css3"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Bootstrap">
               <i class="devicons devicons-bootstrap"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Javascript/(ES6)">
               <i class="devicons devicons-javascript"></i>
             </li>
-             <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="ReactJS">
+              <i class="devicons devicons-react"></i>
+            </li>
+             <li class="list-inline-item" data-toggle="tooltip" title="Magento">
               <i class="devicons devicons-magento"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="WordPress">
               <i class="devicons devicons-wordpress"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Laravel">
               <i class="devicon-laravel-plain small-logo"></i>
             </li>
 
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="MySQL">
               <i class="devicons devicons-mysql"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="MongoDB">
               <i class="devicons devicons-mongodb"></i>
             </li>
 
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Jekyll">
               <i class="devicons devicons-jekyll_small"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Docker">
               <i class="devicons devicons-docker"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Redis">
               <i class="devicons devicons-redis"></i>
             </li>
             
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="npm">
               <i class="devicons devicons-npm"></i>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="Git">
               <i class="devicons devicons-git"></i>
             </li>
-              <li class="list-inline-item">
+              <li class="list-inline-item" data-toggle="tooltip" title="AWS">
               <i class="devicons devicons-aws"></i>
             </li>
-             <li class="list-inline-item">
+            <li class="list-inline-item" data-toggle="tooltip" title="NGINX">
+              <i class="devicons devicons-nginx"></i>
+            </li>
+             <li class="list-inline-item" data-toggle="tooltip" title="Gatling">
             <i class="devicon-gatling-plain small-logo"></i>
             </li>
              
@@ -313,7 +319,7 @@ canvas {
               </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Agile(Kanban) Development and various design patters including MVC and Singleton</li>
+              Agile(Kanban) Development and various design patterns including MVC and Singleton</li>
               <li>
               <i class="fa-li fa fa-check"></i>
               Search Engine Optimization</li>
@@ -526,6 +532,9 @@ particlesJS("particles-js", {
   gtag('js', new Date());
 
   gtag('config', 'UA-113143329-1');
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
 </script>
 
   </body>

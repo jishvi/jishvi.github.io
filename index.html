@@ -1,573 +1,708 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Jishnu V - I'm a performance optimization enthusiast. I challenge myself to write clean and pixel-perfect code. I had my hands on most of the layers of web technology. I'm currently working at buildnext, a young vibrant startup. In my spare time, I try to figure out how to exit from Vim and whether to use Tabs over Spaces.">
-    <meta name="author" content="Jishnu Vasanth">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Jishnu V - I'm a performance optimization enthusiast. I challenge myself to write clean and pixel-perfect code. I had my hands on most of the layers of web technology. I'm currently working at buildnext, a young vibrant startup. In my spare time, I try to figure out how to exit from Vim and whether to use Tabs over Spaces.">
+  <meta name="author" content="Jishnu Vasanth">
 
-    <title>Hey, I'm Jishnu</title>
+  <title>Hey, I'm Jishnu</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
   <style>
     #particles-js {
-  position: absolute;
-    width: 100%;
-     height: 40vh; 
-    right: 0;
-    top: 0;
-}
+      position: absolute;
+      width: 100%;
+      height: 40vh;
+      right: 0;
+      top: 0;
+    }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-.small-logo{
-      font-size: 2.5rem;
-}
-.btn-footer{
+    canvas {
+      display: block;
+      vertical-align: bottom;
+    }
+
+    .small-logo {
+      font-size: 2rem;
+    }
+
+    .btn-footer {
       color: #fff;
-    background-color: rgba(255,255,255,.2);
-    /*border-color: #a25537;*/
-    /*background: #a25537;*/
-    color: #fff;
-    padding: 8px 15px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    /* -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+      background-color: rgba(255, 255, 255, .2);
+      /*border-color: #a25537;*/
+      /*background: #a25537;*/
+      color: #fff;
+      padding: 8px 15px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      /* -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4); */
-    text-transform: uppercase;
-    /*font-weight: 500;*/
-    font-size: 12px;
-}
-.btn-footer:hover{
-  border-color: #a25537;
-    background: #a25537;
+      text-transform: uppercase;
+      /*font-weight: 500;*/
+      font-size: 12px;
+    }
 
-  }
-.reduce-size{
-  font-size: 40px;
-}
+    .btn-footer:hover {
+      border-color: #a25537;
+      background: #a25537;
+
+    }
+
+    .reduce-size {
+      font-size: 40px;
+    }
   </style>
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <div class="btn-group">
-       <a href="mailto:jishnuvasanth@gmail.com"  target="_blank" ><button type="button" class="btn btn-footer" style="margin-right: 5px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Say Hello</button></a>
-    
-       <a href="Jishnu V-SDE-Resume.pdf" target="_blank" alt="Jishnu Vasanth Resume"><button type="button" class="btn btn-footer"><i class="fa fa-download"></i> Resume</button></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <div class="btn-group">
+      <a href="mailto:jishnuvasanth@gmail.com" target="_blank"><button type="button" class="btn btn-footer"
+          style="margin-right: 5px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Say Hello</button></a>
+
+      <a href="Jishnu V - Senior Engineering Manager.pdf" target="_blank" alt="Jishnu Vasanth Resume"><button
+          type="button" class="btn btn-footer"><i class="fa fa-download"></i> Resume</button></a>
     </div>
-      <a class="navbar-brand js-scroll-trigger" href="#page-top" style='z-index: 1033'>
-        <!-- <span class="d-block d-lg-none">Hey, I'm Jishnu</span> -->
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style='z-index: 1033'>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about"><i class="fa fa-user"></i> About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"><i class="fa fa-briefcase"></i> Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills"><i class="fa fa-rocket"></i> Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects"><i class="fa fa-archive"></i> Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
-          </li>
-         
-          <!-- <li class="nav-item">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top" style='z-index: 1033'>
+      <!-- <span class="d-block d-lg-none">Hey, I'm Jishnu</span> -->
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style='z-index: 1033'>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about"><i class="fa fa-user"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience"><i class="fa fa-briefcase"></i> Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills"><i class="fa fa-rocket"></i> Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#patents"><i class="fa fa-lightbulb"></i> Patents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects"><i class="fa fa-archive"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
+        </li>
+
+        <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#get-in-touch">Get in touch</a>
           </li> -->
-        </ul>
-      </div>
-      
-    </nav>
-<div id="particles-js"></div>
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-           <i>Hey there, I'm</i>
-          <h1 class="mb-0">Jishnu
-            <span class="text-primary">Vasanth</span>
-          </h1>
-          <div class="subheading mb-5">Software Development Engineer 
-          </div>
-          <p class="mb-5">I'm a pragmatic programmer and a performance optimization enthusiast. I challenge myself to write clean and pixel-perfect code. I have thorough hands-on experience in various layers of web technology. I'm currently working at <a href="https://buildnext.in" title="Go to buildnext.in" target="_blank">buildnext</a>, a young vibrant startup. In my spare time, I try to figure out how to exit from Vim and whether to use Tabs over Spaces.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/jishnu.vasanth"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://twitter.com/jishnuvasanth"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/jishnuvasanth/"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/jishvi"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-             <li class="list-inline-item">
-              <a href="mailto:jishnuvasanth@gmail.com"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fas fa-envelope-open fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://dev.to/jishvi"  target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-dev fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Software Development Engineer</h3>
-              <div class="subheading mb-3">Buildnext</div>
-              <p>At buildnext, I'm holding responsibilities of a Software Development Engineer(SDE) and a DevOps Engineer. Developed Magento based E-commerce web applications. Elastic(ELK) stack integration. Optimized website performance using Redis and Varnish. Carried out Performance and Load testing using various tools. Optimized logistics module and reduced TTFB. Developed a WordPress website. </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2016 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer(Intern)</h3>
-              <div class="subheading mb-3">Buildnext</div>
-              <p>Front-end and back-end web development. Front-end was developed in Zurb Foundation framework. Back-end was in  LAMP stack.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 2016 - April 2016</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web developer(Intern)</h3>
-              <div class="subheading mb-3">Innointel LLC</div>
-              <p>IoT based predictive analytics system using NodeJs with mustache templating engine and Express framework. Visualized data using graph database (Neo4J) and D3.js.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2015 - October 2015</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Designer(Intern)</h3>
-              <div class="subheading mb-3">Xenonous</div>
-              <p>Front-end development using Bootstrap.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2015 - February 2015</span>
-            </div>
-          </div>
-        </div>
-      </section>
-       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-             <li class="list-inline-item" data-toggle="tooltip" title="C">
-              <i class="devicon-c-plain small-logo"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="C++">
-              <i class="devicon-cplusplus-plain small-logo"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Java">
-              <i class="devicons devicons-java"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="PHP">
-              <i class="devicons devicons-php"></i>
-            </li> 
-            <li class="list-inline-item" data-toggle="tooltip" title="Python">
-              <i class="devicons devicons-python"></i>
-            </li>
-             <li class="list-inline-item" data-toggle="tooltip" title="NodeJs">
-              <i class="devicons devicons-nodejs"></i>
-            </li>
-             <li class="list-inline-item" data-toggle="tooltip" title="HTML5">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="CSS3">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Bootstrap">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Javascript/(ES6)">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="ReactJS">
-              <i class="devicons devicons-react"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="VueJS">
-              <i class="devicon-vuejs-plain reduce-size"></i>
-            </li>
-             <li class="list-inline-item" data-toggle="tooltip" title="Magento">
-              <i class="devicons devicons-magento"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Django">
-              <i class="devicons devicons-django"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="WordPress">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Laravel">
-              <i class="devicon-laravel-plain small-logo"></i>
-            </li>
-              <li class="list-inline-item" data-toggle="tooltip" title="Express JS">
-              <i class="devicon-express-original reduce-size"></i>
-            </li>
-
-            <li class="list-inline-item" data-toggle="tooltip" title="MySQL">
-              <i class="devicons devicons-mysql"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="MongoDB">
-              <i class="devicons devicons-mongodb"></i>
-            </li>
-
-            <li class="list-inline-item" data-toggle="tooltip" title="Jekyll">
-              <i class="devicons devicons-jekyll_small"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Docker">
-              <i class="devicons devicons-docker"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Redis">
-              <i class="devicons devicons-redis"></i>
-            </li>
-            
-            <li class="list-inline-item" data-toggle="tooltip" title="npm">
-              <i class="devicons devicons-npm"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Git">
-              <i class="devicons devicons-git"></i>
-            </li>
-              <li class="list-inline-item" data-toggle="tooltip" title="AWS">
-              <i class="devicons devicons-aws"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="NGINX">
-              <i class="devicons devicons-nginx"></i>
-            </li>
-             <li class="list-inline-item" data-toggle="tooltip" title="Gatling">
-            <i class="devicon-gatling-plain small-logo"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Gatling">
-            <i class="devicon-webpack-plain reduce-size"></i>
-            </li>
-             
-          </ul>
-
-          <div class="subheading mb-3">Core Competencies</div>
-          <ul class="fa-ul mb-0">
-             <li>
-              <i class="fa-li fa fa-check"></i>
-              Back-end and front-end web development</li>
-            <li>
-              <li>
-              <i class="fa-li fa fa-check"></i>
-              Relational and non-relational database designing and implementation</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Performance testing and optimization</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Real time programming, hybrid cross platform applications (Cordova) and RESTful server-less applications</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>E-commerce web solutions and WordPress development
-              </li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile(Kanban) Development and various design patterns including MVC and Singleton</li>
-              <li>
-              <i class="fa-li fa fa-check"></i>
-              Search Engine Optimization</li>
-          </ul>
-        </div>
-      </section>
-       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">HelloEco</h3>
-              <p>A website created using the concept of page-as-a-component with Django in the backend and react in the frontend. Webpack module bundler was used to build assets. Gunicorn as WSGI server and nginx for serving static content</p>
-            </div>
-          </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Scholarship Portal</h3>
-              <p>A scholarship portal where users can log in and see their eligible scholarships. Designed using Java and MySQL.</p>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">HOME AUTOMATION SYSTEM</h3>
-              <p>Home automation system using Raspberry Pi. Programmed using Python and PHP.</p>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">ONLINE CODING ENVIRONMENT</h3>
-              <p>An online coding <a href="https://github.com/jishvi/codemad">platform</a> for competitive exams. Used Node.js with Express framework for server side programming and MongoDB for creating the database. Docker was used for creating isolated environments for users.</p>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">BOOK A TUTOR (FREELANCE)</h3>
-              <p>A website for booking tutors online.</p>
-            </div>
-            
-          </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">PANTHEON CET (FREELANCE)</h3>
-              <p>Website of a college fest called pantheon.</p>
-            </div>
-            
-          </div>
-        </div>
-      </section>
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0"><a href="https://www.cet.ac.in/">College of Engineering Trivandrum </a></h3>
-              <div class="subheading mb-3">Bachelor of Technology</div>
-              <div>Computer Science and Engineering</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2012 - 2016</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">G V H S S Madappally</h3>
-              <div class="subheading mb-3">Higher Secondary</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2009 - 2011</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
- 
+      </ul>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </nav>
+  <div id="particles-js"></div>
+  <div class="container-fluid p-0">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <i>Hey there, I'm</i>
+        <h1 class="mb-0">Jishnu
+          <span class="text-primary">Vasanth</span>
+        </h1>
+        <div class="subheading mb-5">Head of Engineering / Founding Member
+        </div>
+        <p class="mb-5">A pragmatic software engineer with a keen eye for performance optimization and writing
+          pixel-perfect code
+          with 10+ years of thorough hands-on experience in various layers of web applications, VR, and AI. Proficient
+          in designing, implementing, and maintaining innovative, robust, and scalable distributed solutions. Proven
+          track record in people leadership, delivery ownership, system design, and production AI reliability.
+          Experienced in operating under ambiguity and partnering closely with founders and business leaders.</p>
+        <ul class="list-inline list-social-icons mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/jishnu.vasanth" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/jishnuvasanth" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/jishnuvasanth/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/jishvi" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:jishnuvasanth@gmail.com" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fas fa-envelope-open fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://dev.to/jishvi" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-dev fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-    <script src="js/particles.js"></script>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Head of Engineering / Founding Member</h3>
+            <div class="subheading mb-3"><a href="https://buildnext.in" target="_blank">BuildNext</a></div>
+            <p><em>A Pidilite-backed organization that enables technology in the construction industry with the help of
+                web applications, AI, and Virtual Reality.</em></p>
+            <ul>
+              <li>Led teams of engineers, DevOps, and QA to build innovative web applications using various
+                methodologies, and oversaw all aspects of full-stack development while identifying opportunities to
+                enhance the UX.</li>
+              <li>Built a highly scalable SaaS product called <a href="https://descon.ai" target="_blank">descon.ai</a>
+                with deep AI integration from scratch with Dockerized monorepo modules.</li>
+              <li>Ensured adherence to best practices in coding, testing (TDD), and CI/CD workflows with extensive
+                monitoring, thereby <b>reducing production bugs by 40%</b></li>
+              <li>Carried out tech stack migration from Azure to GCP and to AWS. Optimized the workload <b> cost to
+                  50%</b>.
+              </li>
+              <li>Spearheaded modernization efforts, including cloud migrations, API standardization, and AI adoption.
+              </li>
+              <li>Established and optimized engineering processes like sprint planning, release cycles, and QA
+                automation, <b>improving release speed by 40%</b></li>
+              <li>Owned delivery timelines, technical debt management, and overall product performance metrics while
+                developing 2 end-to-end web platforms, 4 iOS and Android apps[React native and Flutter], 1 desktop
+                app[Electron], 2 VR apps[Unity].</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2023 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Senior Software Development Engineer</h3>
+            <div class="subheading mb-3"><a href="https://buildnext.in" target="_blank">BuildNext</a></div>
+            <ul>
+              <li>Mentored and guided a team of engineers, providing technical direction, code reviews, and design
+                feedback while delivering complex features end-to-end.
+              </li>
+
+              <li>Improved search accuracy and logging by integrating the Elastic(ELK) stack, and optimized the
+                website performance using Redis and Varnish.</li>
+              <li>Carried out Performance and Load testing using various tools, including Gatling and Locust
+              </li>
+              <li>Crafted and delivered REST APIs for web and mobile applications, <b>achieving P99 latency of
+                  200ms</b>
+              </li>
+              <li>Designed and enforced fully automated CI/CD pipelines, enabling reliable builds, automated
+                testing, and seamless deployments to production.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2021 - November 2023</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Software Development Engineer</h3>
+            <div class="subheading mb-3"><a href="https://buildnext.in" target="_blank">BuildNext</a></div>
+            <ul>
+              <li>Designed and implemented a headless e-commerce platform using Magento and Vue.js, architected to
+                <b>support ~1M daily active users </b> with high availability and low-latency APIs.</b>
+              </li>
+              <li>Architected and rolled out a real-time messaging and notification platform using Rocket.Chat and
+                WebSockets, with RBAC and OAuth 2.0 based authentication for secure, role-aware communication.
+              </li>
+              <li>Owned the development and integration of multiple internal platforms, including payroll automation,
+                ticketing, careers, and content systems, along with payment gateway integrations to streamline
+                operational and business workflows.</li>
+
+              <li>Delivered and maintained production-grade VR applications using Unity and C#, while extending and
+                customizing ERPNext (Frappe/Python) to support domain-specific business workflows.</li>
+
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2016 - October 2021</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Web Developer (Intern)</h3>
+            <div class="subheading mb-3"><a href="https://www.innointel.com/" target="_blank">INNOINTEL LLC</a></div>
+            <ul>
+              <li>A predictive analytics system using NodeJS with Mustache templating engine and Express.js framework.
+              </li>
+              <li>Visualized data using a graph database (Neo4J) and D3.js.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2015 - October 2015</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Web Designer (Intern)</h3>
+            <div class="subheading mb-3">XENONOUS</div>
+            <ul>
+              <li>Front-end development using Bootstrap.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2015 - February 2015</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline list-icons">
+          <li class="list-inline-item" data-toggle="tooltip" title="C">
+            <i class="devicon-c-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="C++">
+            <i class="devicon-cplusplus-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Java">
+            <i class="devicon-java-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="PHP">
+            <i class="devicon-php-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Python">
+            <i class="devicon-python-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="C#">
+            <i class="devicon-csharp-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="NodeJs">
+            <i class="devicon-nodejs-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="HTML5">
+            <i class="devicon-html5-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="CSS3">
+            <i class="devicon-css3-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Javascript">
+            <i class="devicon-javascript-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="React">
+            <i class="devicon-react-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Vue">
+            <i class="devicon-vuejs-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="NextJs">
+            <i class="devicon-nextjs-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Django">
+            <i class="devicon-django-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Laravel">
+            <i class="devicon-laravel-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Express JS">
+            <i class="devicon-express-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="FastAPI">
+            <i class="devicon-fastapi-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="MySQL">
+            <i class="devicon-mysql-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="MongoDB">
+            <i class="devicon-mongodb-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Elasticsearch">
+            <i class="devicon-elasticsearch-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Docker">
+            <i class="devicon-docker-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Redis">
+            <i class="devicon-redis-plain small-logo"></i>
+          </li>
+
+          <li class="list-inline-item" data-toggle="tooltip" title="Git">
+            <i class="devicon-git-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="AWS">
+            <i class="devicon-amazonwebservices-plain-wordmark small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="GCP">
+            <i class="devicon-googlecloud-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Unity">
+            <i class="devicon-unity-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Gatling">
+            <i class="devicon-gatling-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Webpack">
+            <i class="devicon-webpack-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Bootstrap">
+            <i class="devicon-bootstrap-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Postman">
+            <i class="devicon-postman-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Jira">
+            <i class="devicon-jira-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Socket.io">
+            <i class="devicon-socketio-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Magento">
+            <i class="devicon-magento-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="WordPress">
+            <i class="devicon-wordpress-plain small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="Nginx">
+            <i class="devicon-nginx-original small-logo"></i>
+          </li>
+          <li class="list-inline-item" data-toggle="tooltip" title="D3.js">
+            <i class="devicon-d3js-plain small-logo"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Core Competencies</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            People Management (Hiring, Performance, Mentorship, Growth) and Cost, Reliability & Technical Risk Ownership
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Relational and non-relational database designing and implementation
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            System Design, Architecture, Performance testing, and optimization
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile and Kanban Development, and proficiency in various design patterns
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Prompt Engineering and machine learning
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Gen AI with multimodal LLMs for RAG and agentic systems
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="patents">
+      <div class="my-auto">
+        <h2 class="mb-5">Patents</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">An end-to-end seamless pipeline system for Virtual warehouse and scalable hyperlocal
+              pricing</h3>
+            <p>A platform to find the nearest warehouse and best pricing using the Haversine formula, leveraging Google
+              Maps APIs.</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">An end-to-end central planning system and Method for the orchestration of Construction
+              projects</h3>
+            <p>A sophisticated set of tools to automate various tasks in construction projects, including timeline
+              auto-generation using CPM and a variation of Dijkstra's algorithm.</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">A system and method for visualizing and generating residential floor plans using AI</h3>
+            <p>A floor plan generator that takes input parameters like massing and outputs floor plans and elevation
+              renders using fine-tuned LLMs</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+      <div class="my-auto">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">HelloEco</h3>
+            <p>A website created using the concept of page-as-a-component with Django in the backend and react in the
+              frontend. Webpack module bundler was used to build assets. Gunicorn as WSGI server and nginx for serving
+              static content</p>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Scholarship Portal</h3>
+            <p>A scholarship portal where users can log in and see their eligible scholarships. Designed using Java and
+              MySQL.</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">HOME AUTOMATION SYSTEM</h3>
+            <p>Home automation system using Raspberry Pi. Programmed using Python and PHP.</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">ONLINE CODING ENVIRONMENT</h3>
+            <p>An online coding <a href="https://github.com/jishvi/codemad">platform</a> for competitive exams. Used
+              Node.js with Express framework for server side programming and MongoDB for creating the database. Docker
+              was used for creating isolated environments for users.</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">BOOK A TUTOR (FREELANCE)</h3>
+            <p>A website for booking tutors online.</p>
+          </div>
+
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">PANTHEON CET (FREELANCE)</h3>
+            <p>Website of a college fest called pantheon.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0"><a href="https://www.cet.ac.in/">College of Engineering Trivandrum </a></h3>
+            <div class="subheading mb-3">Bachelor of Technology</div>
+            <div>Computer Science and Engineering</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2012 - 2016</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+  <script src="js/particles.js"></script>
   <script>
-/* ---- particles.js config ---- */
+    /* ---- particles.js config ---- */
 
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 1200,
-      "density": {
-        "enable": true,
-        "value_area": 3000
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 9
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 4,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 100,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 1200,
+          "density": {
+            "enable": true,
+            "value_area": 3000
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 9
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 4,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
         "line_linked": {
-          "opacity": 1
+          "enable": true,
+          "distance": 100,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
         }
       },
-      "bubble": {
-        "distance": 400,
-        "size": 50,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 8
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 50,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 8
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
       },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
+      "retina_detect": true
+    });
 
 
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113143329-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113143329-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-113143329-1');
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-});
-</script>
+    gtag('config', 'UA-113143329-1');
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
-  </body>
+</body>
 
 </html>
